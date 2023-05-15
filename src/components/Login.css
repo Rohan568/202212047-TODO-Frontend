@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input {
+   padding: 0px; 
+   border: 1px solid #eb9a9a; 
+   border-radius: 3px; 
+}
+
+button {
+   padding: 10px 20px; 
+   background-color: #5747d1; 
+  color: rgb(223, 243, 234);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

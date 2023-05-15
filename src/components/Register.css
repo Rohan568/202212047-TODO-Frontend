@@ -1,0 +1,54 @@
+ .register-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-h1 {
+  text-align: center;
+  color: #5f5d5d;
+  margin-bottom: 20px;
+}
+
+.labels{
+  color: #5f5d5d;
+  margin: 0.75rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #697da5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+} 
+
+.register-content{
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.register-col{
+  display: flex;
+  flex-direction: row;
+  width: 25em;
+  justify-content: space-between;
+}
